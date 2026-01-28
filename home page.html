@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">  
+        <script src = "index.js" defer></script>
+    </head>
+
+    <body>
+        <div id="project-container">
+            <div id = "project">
+                <div id= "home">
+                    <h1 id="home-desc">HOME</h1>
+                    <div class="score">
+                        <p id="home-score"> 0 </p>
+                    </div>
+
+                    <div class = "buttons">
+                        <button onclick = "homePlusOne()">+1</button>
+                        <button onclick = "homePlusTwo()">+2</button>
+                        <button onclick = "homePlusThree()">+3</button>
+                    </div>
+                </div>
+
+                <div id="guest">
+                    <h1 id="guest-desc">GUEST</h1>
+                    <div class="score">
+                        <p id="guest-score"> 0 </p>
+                    </div>
+
+                    <div class="buttons">
+                        <button onclick="guestPlusOne()">+1</button>
+                        <button onclick="guestPlusTwo()">+2</button>
+                        <button onclick="guestPlusThree()">+3</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </body>
+</html>

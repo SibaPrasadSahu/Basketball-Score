@@ -1,0 +1,7 @@
+
+1. Always use the "defer" in the <script> tag. 
+This way script only executes after the HTML has been loaded
+
+2. If there are any h1, p, etc.
+They have their own padding, margin and line-height.
+

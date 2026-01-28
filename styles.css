@@ -1,0 +1,85 @@
+@font-face{
+    src: url("fonts/seven_segment.ttf");
+    font-family: "seven-segment";
+}
+
+body{
+    background: #e7f0ea;
+}
+
+button{
+    background: #19244d;
+    border: 2px solid #adc0db;
+    border-radius: 7px;
+    color: #adc0db;
+    font-family: seven-segment;
+    font-weight: bold; 
+    margin: 2px;
+    padding: 10px;
+}
+
+button:active{
+    background: #233162;
+    padding: 9px;
+}
+
+h1{
+    line-height: 0px;
+    padding-bottom: 10;
+}
+
+#project-container{
+    border-radius: 7px;
+    background: white;
+    display: block;
+    padding: 8px;
+    margin: 20px auto;
+    width: 650px;
+}
+
+#project{
+    background: #19244d;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+#home{
+    text-align: center;
+}
+
+#home-desc{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#guest{
+    text-align: center;
+}
+
+#guest-desc{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+.score{
+    align-items: center;
+    background: black;
+    border-radius: 10px;
+    color: #f94f6d;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    font-family: seven-segment;
+    font-size: 70px;
+    width: 150px;
+}
