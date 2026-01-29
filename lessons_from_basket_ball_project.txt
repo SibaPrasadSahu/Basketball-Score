@@ -1,7 +1,12 @@
 
+
 1. Always use the "defer" in the <script> tag. 
 This way script only executes after the HTML has been loaded
 
-2. If there are any h1, p, etc.
-They have their own padding, margin and line-height.
+2. If there are any h1, p, 
+etc.
+They have their own padding
+, margin and line-height.
+
+3. Always make the name of the website html as "index.html". Netlify by default looks for this file.
 
